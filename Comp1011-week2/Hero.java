@@ -35,11 +35,13 @@ public class Hero {
 		this.name = name;
 		generateAbilities();
 	}
+	//Public Methods -------------------------------------------------------------------------------
+	
 	public void showAbilities(){
-		system.out.println("=====================================");
-		system.out.println("Strength: "+ this.strength);
-		system.out.println("Strength: "+ this.speed);
-		system.out.println("Strength: "+ this.health);
+		System.out.println("=====================================");
+		System.out.println("Strength: "+ this.strength);
+		System.out.println("Strength: "+ this.speed);
+		System.out.println("Strength: "+ this.health);
 	}
 	
 	//Private Methods ----------------------------------------------------------------------------
@@ -51,10 +53,12 @@ public class Hero {
 	}
 
 	public void fight() {
+		System.out.println(this.name + " is fighting");
 				
 	}
 	
 	public void run () {
+		System.out.println(this.name + " is running");
 		
 	}
 
