@@ -5,7 +5,7 @@
 /**
  * @author Anirudh.reddy
  * @Program Description: Demo files for Week 3
- * @version 0.1 - Created Basic Project 
+ * @version 0.2 - Added Vehicle Class
  */
 public class Project {
 
@@ -13,8 +13,9 @@ public class Project {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//Declare New Car
+		Vehicle myVehicle = new Vehicle();
+		myVehicle.
 	}
 
 }
